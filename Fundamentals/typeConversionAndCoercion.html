@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        //type conversion
+        const age = '31'
+        console.log(age + 10) //will output 3110 because we are adding string to number
+
+        console.log(Number(age) + 10)//to solve this we need to convert string to number by using "Number". This will now output 41
+
+        console.log(Number('John'))// NaN
+        console.log(String(7)) //converted to String
+
+
+        //type coercion
+        console.log('23' - '10' - 3)//10
+        console.log('7' + '8' - 2) // 76
+        console.log('4' * '2') //8
+        console.log('2' + 2) //22
+
+
+    </script>
+</body>
+
+</html>
