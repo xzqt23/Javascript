@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        /*
+
+
+        == (loose equality) 
+        === (strict equality)
+
+
+        "1" == 1; // true
+        1 == "1"; // true
+        0 == false; // true
+        0 == null; // false
+        0 == undefined; // false
+        0 == !!null; // true, look at Logical NOT operator
+        0 == !!undefined; // true, look at Logical NOT operator
+        null == undefined; // true
+
+        */
+
+        const age = 25
+        if (age === 25) // if you write age =='25' it will not print anything
+        {
+            console.log(`You are ${age} years old`)
+        }
+
+        ///////////////////////////////////////
+
+        // const score = prompt('What is your score? ')
+
+
+        // if (score === 100) alert(`You are great programmer`)
+
+        // else alert(`This will be printed`) // this will be the output because of the === operator
+
+
+        // If you wanted to print the first condition then use Number to convert input to a number
+
+        const score = Number(prompt('What is your score? '))
+
+
+        if (score === 100) alert(`You are great programmer`) // this will now be the output
+
+        else if (score === 90) alert('Awesome')
+
+        else if (score === 80) alert('Better')
+
+        else alert('Try to review')
+
+    </script>
+</body>
+
+</html>
