@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        //falsy values : 0,'', NaN,null,undefined,false,-0
+
+        console.log(Boolean(0)); //false
+        console.log(Boolean(undefined))//false
+        console.log(Boolean('John')) //true
+        console.log(Boolean(''))//false
+        console.log(Boolean({}))//true
+
+        const success = 0;
+
+        if (success) {
+            console.log('You are successfull')
+        }
+
+        else {
+            console.log('Try again next time') // this will be printed since 0 is a falsy value.
+
+        }
+
+        //////////////
+
+        let score; //undefined
+
+        if (score) { // score has a value of undefined and it is a falsy value
+            console.log('Score is defined')
+        }
+
+        else {
+            console.log('Score is undefined') //this will be printed
+        }
+
+    </script>
+</body>
+
+</html>
