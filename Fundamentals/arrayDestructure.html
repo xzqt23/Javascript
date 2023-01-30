@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        const arr = [23, 2, 17]
+
+        const [a, b, c] = arr
+        console.log(a, b, c,)
+
+
+        /////////////////////
+
+        const person = {
+            names: ['John', 'Jack', 'Kyle', 'Lebron']
+        }
+
+        // const [first, second] = person.names // John,Jack
+        const [x, , y] = person.names
+        console.log(x, y) // John, Kyle
+
+
+    </script>
+</body>
+
+</html>
