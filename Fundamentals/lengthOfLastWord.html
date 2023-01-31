@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        /*
+        Given a string s consisting of words and spaces, return the length of the last word in the string.
+
+        A word is a maximal 
+        substring
+        consisting of non-space characters only.
+
+
+Example 1:
+Input: s = "Hello World"
+Output: 5
+Explanation: The last word is "World" with length 5.
+
+Example 2:
+Input: s = "   fly me   to   the moon  "
+Output: 4
+Explanation: The last word is "moon" with length 4.
+
+Example 3:
+Input: s = "luffy is still joyboy"
+Output: 6
+Explanation: The last word is "joyboy" with length 6.
+        */
+
+
+        const lengthOfLastWord = s => {
+            return s.trimEnd().split(' ').pop().length
+        }
+
+
+        /*trimEnd removes whitespace at the end, splits
+        string into array o words, pop() removes the last element
+        and display to console and length gets the length of the last
+        word.
+ 
+        */
+
+
+    </script>
+</body>
+
+</html>
