@@ -17,6 +17,72 @@
         arr.reverse() //reverse
         console.log(arr)
 
+
+        ///////////////////
+
+        const arr1 = [12, 23, 7, 45]
+        const arr2 = ['a', 'b', 'c', 'd']
+
+        const final = arr1.concat(arr2) //concatinate
+        console.log(final)
+
+        ///////////////////
+
+        const x = [1, 2, 3, 4, 5]
+        const x1 = x.map(x => x * 2) // map
+        console.log(x1)
+
+        ///////////////////
+
+        const xyz = [22, 3, 17, 56, 34]
+
+        const f1 = Array.isArray(xyz) // check if it is array
+        console.log(f1)
+
+        ///////////////////
+
+        const arr3 = [12, 14, 16, 18, 20]
+
+        const aaa = arr3.filter(x => x > 15) //filter
+        console.log(aaa)
+
+        ///////////////////
+
+        const elements = ['fire', 'air', 'water']
+        console.log(elements.join()) // returns the value of array to string
+        console.log(elements.join(''))//join without spaces
+        console.log(elements.join('-'))//join with a hypen
+
+        ///////////////////
+
+        const test = [2, 4, 6, 8, 10]
+
+        const test1 = test.reduce((x, y) => x + y)
+        console.log(test1)
+
+        ///////////////////
+
+        const abc = [2, 3, 4, 5]
+
+        const fin = abc.reduce((a, b) => { //add values together
+            console.log(a, b)
+            return a + b
+        })
+
+        console.log(fin)
+
+        /*
+ 
+        2,3
+        5,4
+        9,5
+        14
+        */
+
+
+
+
+
     </script>
 </body>
 
