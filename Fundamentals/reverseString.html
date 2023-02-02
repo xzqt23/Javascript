@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        var reverseString = function (s) {
+            let result = s.join('').split('').reverse().join('');
+            console.log(result);
+        }
+        // 1. s.join('') - The array of characters is joined into a single string
+        // 2. .split('') - The resulting string is split into an array of characters
+        // 3. .reverse() - The array of characters is reversed
+        // 4. .join('') - The reversed array of characters is joined into a single string, which is the final result
+
+
+        reverseString(["H", "a", "n", "n", "a", "h"]);
+    </script>
+</body>
+
+</html>
