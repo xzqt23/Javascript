@@ -17,13 +17,21 @@
         // loop using for loop
 
         for (let i = 0; i < num.length; i++) {
-            console.log(num[i])
+            // console.log(num[i])
+            console.log(num.at(-1)) // get the last element
         }
 
 
         // loop using for of
-        for (let i of num)
-            console.log(i)
+        // for (let i of num)
+        //     console.log(i)
+
+
+        /*
+     for (let i=0; i<arr.length; i++) – works fastest, old-browser-compatible.
+     for (let item of arr) – the modern syntax for items only,
+     for (let i in arr) – never use.
+        */
 
     </script>
 </body>
